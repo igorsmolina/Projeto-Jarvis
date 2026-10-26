@@ -1,13 +1,19 @@
 # Segundo Cérebro (Jarvis)
 
-- **Repo:** https://github.com/igorsmolina/Projeto-Jarvis
+- **Repo / Local:** https://github.com/igorsmolina/Projeto-Jarvis (vault em `Cabeça/`)
 - **URL:** — (não tem deploy)
 - **Stack:** Obsidian + plugin Obsidian Git + GitHub (repo privado) + Claude Code
-- **Status:** Em configuração — estrutura do vault criada em 2026-10-26.
-- **Próximo passo:** instalar o plugin Obsidian Git e ligar o vault ao repo acima.
+- **Status:** Estrutura criada e enviada ao GitHub em 2026-10-26; modelos em `_modelos/`.
+- **Próximo passo:** instalar o plugin Obsidian Git e mover o `.git` para dentro de `Cabeça/`.
 
-## Objetivo
-Vault do Obsidian como banco de contexto: eu escrevo, o Obsidian Git envia ao GitHub, o Claude lê no início de cada sessão.
+## Pendências
+- Confirmar que o repo está privado.
+- Ignorar `.obsidian/workspace.json` no `.gitignore`.
+- Preencher `design/tokens.md`.
+
+## Links
+- Instruções: [[CLAUDE]] · Mapa: [[_index]]
 
 ## Histórico
-- 2026-10-26 — criados `CLAUDE.md`, `_index.md`, `design/tokens.md` e pastas.
+- 2026-10-26 — criados `CLAUDE.md`, `_index.md`, `design/tokens.md`, pastas, push inicial.
+- 2026-10-26 — adicionados `_modelos/` e `conversas/`; projetos rtsvibe e KSP.
